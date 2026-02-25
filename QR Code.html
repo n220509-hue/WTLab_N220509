@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>QR Code Generator UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QR Generator</h1>
+    </header>
+
+    <main class="container">
+        <div class="qr-card">
+            <h2>Generate Your QR Code</h2>
+            <p>Enter text or a URL below to create a QR code.</p>
+            
+            <div class="input-section">
+                <input type="text" placeholder="https://example.com" id="qr-input">
+                <button type="button" class="btn">Generate QR Code</button>
+            </div>
+
+            <div class="qr-display">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="Sample QR Code">
+                <p>Sample Preview</p>
+            </div>
+        </div>
+    </main>
+
+    
+</body>
+</html>
